@@ -3,7 +3,7 @@ import { navData } from "../../data/navbarData";
 
 const Navbar = () => {
   return (
-    <div className="wrapper flex justify-between items-center">
+    <div className="wrapper flex justify-between items-center my-12">
       <div className="img cursor-pointer">
         <img src={navLogo} alt="" />
       </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
             </ul>
           );
         })}
-        <button className="py-3 px-7 bg-[#F58634] text-white hover:border hover:bg-inherit hover:text-slate-950 hover:border-[#F58634] transition-all ease-in-out duration-100">
+        <button className="py-3 px-7 bg-[#F58634] text-white border hover:bg-inherit hover:text-slate-950 hover:border-[#F58634] transition-all ease-in-out duration-100">
           Log in
         </button>
       </div>
