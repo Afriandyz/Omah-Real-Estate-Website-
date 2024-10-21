@@ -1,14 +1,12 @@
 import Home from  "./Pages/Home/Home"
-import HeroImage from "./components/HeroImage/HeroImage";
+import SaleHouse from "./Pages/SaleHouse";
+
 
 const App = () => {
   return (
-    <section className="out font-poppins">
-      <div className="in container px-3 py-2 mx-auto">
+    <section className="font-poppins">
         <Home />
-      </div>
-      {/* Hero Image */}
-      <HeroImage />
+        <SaleHouse />
     </section>
   );
 }
