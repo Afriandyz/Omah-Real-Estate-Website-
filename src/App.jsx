@@ -1,6 +1,8 @@
 import Home from  "./Pages/Home/Home"
 import SaleHouse from "./Pages/SaleHouse";
 import ReviewPage from "./Pages/ReviewPages"
+import BlogPages  from "./Pages/BlogPages";
+import SubscribePages from "./Pages/SubscribePages"
 
 
 const App = () => {
@@ -9,6 +11,8 @@ const App = () => {
         <Home />
         <SaleHouse />
         <ReviewPage />
+        <BlogPages />
+        <SubscribePages />
     </section>
   );
 }

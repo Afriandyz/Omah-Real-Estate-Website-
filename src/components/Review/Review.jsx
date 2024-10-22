@@ -7,7 +7,7 @@ import "swiper/css";
 
 const Review = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper mb-32">
       <Swiper
         slidesPerView={3}
         spaceBetween={15}
